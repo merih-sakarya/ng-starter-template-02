@@ -1,0 +1,21 @@
+<div class="header">
+  <div class="header__logo" [routerLink]="['/']">LOGO</div>
+
+  <div class="header__menu">
+    <button mat-icon-button class="header__icon" [routerLink]="['/notifications']">
+      <mat-icon>notifications_none</mat-icon>
+    </button>
+
+    <mat-divider class="header__divider" vertical="true"></mat-divider>
+
+    <button data-test="header-menu" mat-button [matMenuTriggerFor]="menu">
+      <mat-icon class="header__icon">person_outline</mat-icon> merih.sakarya@domain.com
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/settings']" disabled>Settings</button>
+      <mat-divider></mat-divider>
+      <button data-test="header-logout" mat-menu-item (click)="logout()">Logout</button>
+    </mat-menu>
+  </div>
+</div>
