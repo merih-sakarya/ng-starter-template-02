@@ -1,7 +1,7 @@
 # NG Starter Template 01
 
 [Angular](https://angular.io/), [Material Design](https://material.angular.io/),
-[Flex-Layout](https://github.com/angular/flex-layout)
+[Flex-Layout](https://github.com/angular/flex-layout),
 [Cypress](https://www.cypress.io), [Mock Server](https://www.npmjs.com/package/json-server),
 [CI/CD](https://en.wikipedia.org/wiki/CI/CD), [Husky](https://github.com/typicode/husky),
 [Eslint](https://eslint.org), [Prettier](https://prettier.io/),
