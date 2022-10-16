@@ -4,6 +4,8 @@
     "stylelint-config-prettier-scss"
   ],
   "rules": {
-    "no-empty-source": null
+    "no-empty-source": null,
+    "value-keyword-case": null,
+    "scss/at-mixin-argumentless-call-parentheses": null
   }
 }
