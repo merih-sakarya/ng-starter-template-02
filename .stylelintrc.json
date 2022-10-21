@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss"
+  ],
+  "rules": {
+    "no-empty-source": null,
+    "value-keyword-case": null,
+    "scss/at-mixin-argumentless-call-parentheses": null
+  }
+}
