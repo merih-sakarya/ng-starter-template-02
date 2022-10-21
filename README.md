@@ -10,6 +10,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+![Screenshot](https://github.com/merih-sakarya/ng-starter-template-02/blob/master/src/assets/images/screen-record.gif)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -152,6 +154,12 @@ sass/
     <button class="search-form__button">Search</button>
 </form>
 ```
+
+**[Material Design](https://material.angular.io)** is used as **UI library**. Angular Material is a User Interface (UI) component library that developers can use in their Angular projects to speed up the development of elegant and consistent user interfaces. Angular Material offers you reusable and beautiful UI components like Cards, Inputs, Data Tables, Datepickers, and much more.
+
+**[Angular Flex Layout](https://github.com/angular/flex-layout)** is used as **grid layout**. Angular Flex-Layout is an npm package made by Angular team officially. Angular Flex Layout provides a sophisticated layout API using Flexbox CSS + mediaQuery. This module provides Angular developers with component layout features using a custom Layout API, mediaQuery observables, and injected DOM flexbox-2016 CSS stylings.
+
+**[Stylelint](https://stylelint.io)** is a mighty, modern linter that helps you avoid errors and enforce conventions in your styles. Please see **[stylelint-integration](https://github.com/merih-sakarya/ng-starter-template-02/tree/stylelint-integration)** branch and **[pull request](https://github.com/merih-sakarya/ng-starter-template-02/pull/1)** for more information.
 
 ## Build
 
