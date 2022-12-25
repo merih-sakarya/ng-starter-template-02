@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { MatMenuModule } from '@angular/material/menu';
 import { AuthenticationService } from '@core/services/authentication.service';
 
 import { HeaderComponent } from './header/header.component';
@@ -16,7 +17,10 @@ describe('LayoutDefaultComponent', () => {
         LayoutDefaultComponent,
         HeaderComponent
       ],
-      imports: [RouterTestingModule],
+      imports: [
+        RouterTestingModule,
+        MatMenuModule
+      ],
       providers: [{ provide: AuthenticationService, useValue: authenticationTestingService }]
     }).compileComponents();
   });
